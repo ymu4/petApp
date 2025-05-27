@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/sum</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+        <!-- Add other theme attributes here -->
+    </style>
+
+    <!-- PopupOverlay style -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item> <!-- Background color of the pop-up -->
+        <item name="android:textColor">@color/black</item> <!-- Text color of the pop-up -->
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- Make the window background transparent -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- Enable background dimming -->
+        <item name="android:backgroundDimAmount">0.5</item> <!-- Set the dim amount (0 to 1) -->
+        <item name="android:windowIsTranslucent">true</item> <!-- Make the window translucent -->
+        <item name="android:windowContentOverlay">@null</item> <!-- Remove the content overlay -->
+        <item name="android:windowActionBarOverlay">true</item> <!-- Add shadow to the toolbar -->
+    </style>
+    <style name="ToolbarButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <!-- Customize button properties here -->
+        <item name="android:textColor">@color/white</item> <!-- Text color of the buttons -->
+        <item name="android:background">@color/black</item> <!-- Background drawable for the buttons -->
+        <item name="android:padding">8dp</item> <!-- Padding for the buttons -->
+    </style>
+
+</resources>
